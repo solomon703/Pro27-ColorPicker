@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+  height: 50vh;
+  width: 40%;
+  background-color: black;
+  color: #fff;
+  margin-top: 10%;
+  margin-left: 30%;
+}
+.main h1{
+  margin-top: 12%;
+  margin-left: 35%;
+  text-decoration: underline;
+}
+.main button{
+  padding: 5px;
+  margin-left: 55px;
+  margin-top: 55px;
+  background-color: #fff;
+  color: #000;
+  border:none;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 1s ease;
+}
+.main button:hover{
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+}
+.main #first:hover{
+  background-color: #e0e0e0;
+  color: #000;
+}
+.main #second:hover{
+  background-color: #6fcf97;
+  color: #000;
+}
+.main #third:hover{
+  background-color: #56ccf2;
+  color: #000;
+}
+.main #fourth:hover{
+  background-color: #bb6bd9;
+  color: #000;
+}
+.main .content{
+  margin-top: 5%;
+  height: 10vh;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* position: fixed; */
+}
+.main .content h3{
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.main p{
+  margin-top: 5%;
+  margin-left: 10%;
+}
